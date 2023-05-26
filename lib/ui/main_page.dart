@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_luckyseastar_sample/enum/main_page_menu.dart';
 import 'package:flutter_luckyseastar_sample/ui/search_page.dart';
 import 'package:flutter_luckyseastar_sample/util/noamimation_material_page_route.dart';
 
+
+
 class MainPage extends StatelessWidget {
-  const MainPage({
+   const MainPage({
     super.key,
     required this.title,
   });
@@ -17,11 +20,31 @@ class MainPage extends StatelessWidget {
           leading: Builder(
             builder: (context) => IconButton(
                 onPressed: () => Scaffold.of(context).openDrawer(),
-                icon: Icon(Icons.menu_book)),
+                icon: const Icon(Icons.menu_book)),
           ),
           title: Text(title),
       ),
-      body: const Text('hello'),
+      body: ListView.builder(
+        padding: const EdgeInsets.all(8),
+        itemCount: MainPageMenus.values.length - 1,
+          itemBuilder: (BuildContext context, int index) {
+          final widget = MainPageMenus.values[index].widget;
+          final name =  MainPageMenus.values[index].name;
+            return GestureDetector(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => widget ?? Container())
+                );
+              },
+              behavior: HitTestBehavior.opaque,
+              child: Container(
+                height: 50,
+                color: Colors.white,
+                child: Center(child: Text('Entry ${name}'))
+              ),
+            );
+      }),
       drawer: Drawer(
         child: ListView(
           padding: EdgeInsets.zero,
