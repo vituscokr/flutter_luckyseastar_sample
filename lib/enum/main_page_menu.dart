@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_luckyseastar_sample/ui/sample_gesture_detector.dart';
 import 'package:flutter_luckyseastar_sample/ui/sample_chart.dart';
 import 'package:flutter_luckyseastar_sample/ui/syncfusion/syncfusion_slider.dart';
 
@@ -12,6 +13,11 @@ enum MainPageMenus {
       "SampleChart",
       "SampleChart",
       SampleChart()),
+	sampleGestureDetetor(
+		"sampleGestureDetector",
+		"sampleGestureDetector",
+		SampleGestureDetector()
+	),
 
 	undefined('undefined','', null);
 
