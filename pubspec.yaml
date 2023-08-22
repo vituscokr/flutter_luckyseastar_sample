@@ -48,6 +48,7 @@ dependencies:
   scrollable_positioned_list: ^0.3.8
   syncfusion_flutter_sliders: ^21.2.6
   device_preview: ^1.1.0
+  hex: ^0.2.0
 
 dependency_overrides:
   intl: any
