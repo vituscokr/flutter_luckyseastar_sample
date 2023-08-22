@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "755713046844",
+    "project_id": "sample-4fa28",
+    "storage_bucket": "sample-4fa28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755713046844:android:92a3093d443ec9c9fec639",
+        "android_client_info": {
+          "package_name": "com.example.sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755713046844-vr4409qsqelcuqvsphfdejsdb05eqq14.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGJcMMVvUEaQoMr0ULM7bNmYczLiA_gRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755713046844-vr4409qsqelcuqvsphfdejsdb05eqq14.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755713046844:android:683e0e5ae22578d8fec639",
+        "android_client_info": {
+          "package_name": "kr.co.luckyseastar.sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755713046844-vr4409qsqelcuqvsphfdejsdb05eqq14.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGJcMMVvUEaQoMr0ULM7bNmYczLiA_gRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755713046844-vr4409qsqelcuqvsphfdejsdb05eqq14.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
