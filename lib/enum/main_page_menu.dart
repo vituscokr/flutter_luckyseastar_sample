@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_luckyseastar_sample/ui/mixin/start_screen.dart';
 import 'package:flutter_luckyseastar_sample/ui/sample_clippath.dart';
 import 'package:flutter_luckyseastar_sample/ui/sample_device_view.dart';
 import 'package:flutter_luckyseastar_sample/ui/sample_gesture_detector.dart';
@@ -29,6 +30,13 @@ enum MainPageMenus {
 		"sampleGestureDetector",
 		"sampleGestureDetector",
 		SampleGestureDetector()),
+
+
+	sampleMixin(
+		"sampleMixin",
+		"sampleMixin",
+		StartScreen()),
+
 
 	undefined('undefined','', null);
 
