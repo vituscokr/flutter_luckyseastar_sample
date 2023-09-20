@@ -32,6 +32,7 @@ enum MainPageMenus {
 		SampleGestureDetector()),
 
 
+
 	sampleMixin(
 		"sampleMixin",
 		"sampleMixin",
